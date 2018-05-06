@@ -1,0 +1,46 @@
+:root{
+	font-size: 16px;
+}
+
+body{
+	margin: 0;
+	padding: 0;	
+}
+
+.main-container{
+	margin: auto;
+	width:94%;
+	max-width: 1200px;
+	
+}
+
+.accordion-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.accordion-item{
+	font-size: 1.3rem;
+	width: 95%;
+	border: 2px solid rgba(0,0,0,0.125);
+	margin-top: 1em;
+}
+
+.accordion-trigger{
+	
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,0.125);
+	padding:1rem;
+}
+
+.accordion-trigger:hover{
+	cursor: pointer;
+}
+
+.accordion-target{
+	display: none;
+	padding: 1rem;
+}
